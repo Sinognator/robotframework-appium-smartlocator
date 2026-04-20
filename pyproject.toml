@@ -18,5 +18,9 @@ dependencies = [
     "Appium-Python-Client",
 ]
 
+
 [tool.setuptools.packages.find]
 where = ["."]
+
+[project.entry-points."robotframework.libraries"]
+AppiumSmartLocator = "appium_smartlocator.smart_robot_library:SmartMobileLibrary"

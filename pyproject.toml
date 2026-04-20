@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robotframework-appium-smartlocator"
+version = "0.1.0"
+description = "Smart locator resolver for Appium and Robot Framework"
+authors = [
+    { name = "Paulo Rocha" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "robotframework",
+    "robotframework-appiumlibrary",
+    "Appium-Python-Client",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]

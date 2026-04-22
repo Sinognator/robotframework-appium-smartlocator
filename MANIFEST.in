@@ -1,0 +1,8 @@
+prune venv
+prune venv_test
+prune build
+prune dist
+prune results
+prune __pycache__
+global-exclude *.pyc
+global-exclude __pycache__/*

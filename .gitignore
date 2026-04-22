@@ -13,5 +13,7 @@ dist/
 build/
 *.egg-info/
 *.bat
+results/
+
 # IDE
 .vscode/

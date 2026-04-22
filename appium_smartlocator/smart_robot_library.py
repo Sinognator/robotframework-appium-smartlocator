@@ -26,14 +26,14 @@ class AppiumSmartLocator:
                 "Você chamou Open Application?"
             ) from e
 
-    @keyword("Resolver Locator Inteligente")
+    @keyword("Resolve Smart Locator")
     def resolver_locator_inteligente(self, descricao_humana, xml_source):
         """
         Retorna o melhor locator possível a partir de uma descrição humana.
         """
         return self.resolver.resolve_locator(descricao_humana, xml_source)
 
-    @keyword("Clicar No Elemento")
+    @keyword("Click Smart Element")
     def clicar_no_elemento(self, descricao_humana):
         """
         Clica em um elemento a partir de uma descrição humana.
@@ -47,7 +47,7 @@ class AppiumSmartLocator:
         by, value = self._split_locator(locator)
         driver.find_element(by, value).click()
 
-    @keyword("Preencher Elemento")
+    @keyword("Type Into Smart Element")
     def preencher_elemento(self, descricao_humana, texto):
         """
         Preenche um campo a partir de uma descrição humana.
@@ -64,7 +64,7 @@ class AppiumSmartLocator:
         el.clear()
         el.send_keys(texto)
 
-    @keyword("Validar Elemento")
+    @keyword("Validate Smart Element")
     def validar_elemento(self, descricao_humana, timeout=5):
         """
         Valida se um elemento está presente na tela dentro de um timeout.

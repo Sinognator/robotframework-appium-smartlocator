@@ -1,6 +1,8 @@
 # Python
 __pycache__/
 *.pyc
+*.robot
+teste.py
 
 # Virtualenv
 venv/
@@ -10,6 +12,6 @@ venv_test/
 dist/
 build/
 *.egg-info/
-
+*.bat
 # IDE
 .vscode/

@@ -3,7 +3,7 @@
 <suite id="s1" name="Robotframework-Appium-Smartlocator" source="C:\Projects\robotframework-appium-smartlocator">
 <suite id="s1-s1" name="Testeminimo" source="C:\Projects\robotframework-appium-smartlocator\testeminimo.robot">
 <test id="s1-s1-t1" name="Teste Biblioteca" line="5">
-<kw name="Validar Elemento" owner="appium_smartlocator.SmartMobileLibrary">
+<kw name="Validar Elemento" owner="appium_smartlocator.AppiumSmartLocator">
 <msg time="2026-04-20T15:37:44.184803" level="FAIL">AppiumLibrary não encontrada ou aplicação não aberta. Você chamou Open Application?</msg>
 <arg>botão smarth</arg>
 <doc>Valida se um elemento está presente na tela dentro de um timeout.</doc>

@@ -62,7 +62,7 @@ robotframework-appium-smartlocator/
 
 ```robot
 *** Settings ***
-Library    appium_smartlocator.SmartMobileLibrary
+Library     AppiumSmartLocator
 ```
 
 ---
@@ -80,7 +80,7 @@ Library    appium_smartlocator.SmartMobileLibrary
 
 ```robot
 *** Settings ***
-Library    appium_smartlocator.SmartMobileLibrary
+Library    appium_smartlocator.AppiumSmartLocator
 
 *** Test Cases ***
 Validate Button
@@ -93,7 +93,7 @@ Validate Button
 
 ```robot
 *** Settings ***
-Library    appium_smartlocator.SmartMobileLibrary
+Library    AppiumSmartLocator
 
 *** Test Cases ***
 Login Example
@@ -139,7 +139,7 @@ The library generates locators in this order:
 
 ## Development Status
 
-Current version: `0.1.0`
+Current version: `0.1.3`
 
 This is the first functional version of the library.
 

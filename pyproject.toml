@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "robotframework-appium-smartlocator"
-version = "0.1.2"
+version = "0.1.3"
 description = "Smart locator resolver for Appium and Robot Framework"
 authors = [
     { name = "Paulo Rocha" }
@@ -22,5 +22,3 @@ dependencies = [
 [tool.setuptools.packages.find]
 where = ["."]
 
-[project.entry-points."robotframework.libraries"]
-AppiumSmartLocator = "appium_smartlocator.smart_robot_library:SmartMobileLibrary"

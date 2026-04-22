@@ -1,3 +1,3 @@
-from .smart_robot_library import SmartMobileLibrary
+from .smart_robot_library import AppiumSmartLocator
 
-__all__ = ["SmartMobileLibrary"]
+__all__ = ["AppiumSmartLocator"]

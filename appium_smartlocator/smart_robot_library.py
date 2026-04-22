@@ -8,7 +8,7 @@ from selenium.common.exceptions import TimeoutException
 from .smart_element_resolver import SmartElementResolver
 
 
-class SmartMobileLibrary:
+class AppiumSmartLocator:
     """
     Library Robot Framework para interação inteligente com elementos mobile via Appium.
     """

@@ -1,6 +1,5 @@
 import xml.etree.ElementTree as ET
 
-
 class LocatorBuilder:
 
     def build(self, candidate: ET.Element) -> str:

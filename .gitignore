@@ -17,3 +17,7 @@ results/
 
 # IDE
 .vscode/
+
+
+test_local.py
+test_screen.xml

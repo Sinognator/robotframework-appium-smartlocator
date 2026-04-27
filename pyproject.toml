@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "robotframework-appium-smartlocator"
-version = "0.1.10"
+version = "0.1.11"
 description = "Smart locator resolver for Appium and Robot Framework"
 authors = [
     { name = "Paulo Rocha" }
